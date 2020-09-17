@@ -4,6 +4,8 @@ CREATE DATABASE IF NOT EXISTS dig_employee;
 
 CREATE SCHEMA IF NOT EXISTS dig_employees;
 
+/* for dropping the database */
+
 DROP SCHEMA dig_employee;
 
 USE employees;
