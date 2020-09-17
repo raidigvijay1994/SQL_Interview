@@ -1,4 +1,4 @@
-
+/* For creating database  */
 
 CREATE DATABASE IF NOT EXISTS dig_employee;
 
