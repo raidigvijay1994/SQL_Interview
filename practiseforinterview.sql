@@ -8,6 +8,7 @@ CREATE SCHEMA IF NOT EXISTS dig_employees;
 
 DROP SCHEMA dig_employee;
 
+/* command to use specific database */
 USE employees;
 
 USE dig_employees;
