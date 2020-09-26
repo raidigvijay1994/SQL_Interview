@@ -422,7 +422,7 @@ SELECT *
 FROM employees
 ORDER BY hire_date DESC;
 
-/* group the number of time the first name occured in the employees table
+/* group the number of time the first name occured in the employees table.
 */
 
 SELECT first_name, COUNT(first_name)
