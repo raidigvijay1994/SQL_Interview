@@ -253,7 +253,7 @@ WHERE salary IN (SELECT MAX(SALARY) FROM SALARIES);
 
 
 
-/* Select the information from the “dept_no” column of the “departments” table.
+/* Select the information from the “dept_no” column of the “departments” table
 
 Select all data from the “departments” table.  */
 
