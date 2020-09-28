@@ -204,7 +204,7 @@ SELECT *
 FROM salaries
 WHERE salary = (SELECT MIN(salary) from salaries);
 
-/* Return 2nd highest employee record with maximum salary */
+/* Return 2nd highest employee record with maximum salary. */
 
 USE EMPLOYEES;
 
