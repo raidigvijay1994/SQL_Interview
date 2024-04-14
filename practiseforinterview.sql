@@ -1,3 +1,13 @@
+/* ORDER OF EXECUTION OF SQL QUERY  */
+
+FROM
+WHERE
+GROUP BY
+HAVING
+SELECT
+ORDER BY
+LIMIT
+
 /* For creating database  */
 
 CREATE DATABASE IF NOT EXISTS dig_employee;
