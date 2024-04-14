@@ -979,3 +979,21 @@ DELIMITER ;
 
 CALL all_employees;
 
+
+/* Fetch difference between current and previous salaries of all the worker */
+
+WITH CTE AS(
+SELECT *, LAG(SALARY) OVER (ORDER BY SALARY) AS NEW_SALARY,
+SALARY - LAG(SALARY) OVER (ORDER BY SALARY) AS DIFFERENCE
+FROM WORKER)
+
+SELECT *
+FROM CTE;
+
+
+
+
+
+
+
+
